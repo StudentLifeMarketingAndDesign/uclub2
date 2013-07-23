@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6 {
     text-rendering: optimizelegibility;
 }
 h1 {
-    @include rem(41);
+    @include rem(40);
     margin: .75em 0 .5em;
     text-transform: uppercase;
 	border-bottom: 5px solid #333;
@@ -36,7 +36,7 @@ h4 {
     @include rem(22);
 }
 h5 {
-    @include rem(17);
+    @include rem(18);
 }
 h6 {
     @include rem(16);
@@ -56,6 +56,7 @@ ul,ol {
     margin-left: 24px;
 }
 ul ul,ul ol,ol ol,ol ul {
+    margin-top: 0;
     margin-bottom: 0;
 }
 ul.unstyled, ol.unstyled {
@@ -96,16 +97,12 @@ hr {
 ----------------------------------------------------*/
 blockquote {
     padding-left: 1em;
-    border-left: 5px solid #eee;
-}
-blockquote p {
-    margin-bottom: 0;
-    line-height: em(25);
+    border-left: 5px solid $yellow;
 }
 blockquote small {
     display: block;
     line-height: 20px;
-    color: #999;
+    color: #666;
 }
 blockquote small:before {
     content: '\2014 \00A0';

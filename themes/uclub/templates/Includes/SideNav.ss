@@ -6,19 +6,19 @@
 
 <% if Menu(2) %>
 <nav class="sec-nav">
-	<ul>
+	<ul class="first-level">
 		
 			<% loop Menu(2) %>
 				<li <% if $LinkOrCurrent = "current" %>class="active"<% end_if %>><a href="$Link">$MenuTitle</a>
 				
 				<%-- third level nav option 1 --%>
 					<% if $LinkOrSection = "section" && Children %>
-						<ul>
+						<ul class="second-level">
 							<% loop Children %>
 								<li <% if $LinkOrCurrent = "current" %>class="active"<% end_if %>>
 									<a href="$Link">$MenuTitle</a>
 									<% if $LinkOrSection = "section" && Children %>
-										<ul>
+										<ul class="third-level">
 											<% loop Children %>
 												<li <% if $LinkOrCurrent = "current" %>class="active"<% end_if %>>
 													<a href="$Link">$MenuTitle</a>
