@@ -28,7 +28,7 @@ class RoomPage_Controller extends Page_Controller {
 	}
 
   public function Slides(){
-    $slides = $this->RSSDisplay(5, $FlickrURL);
+    $slides = $this->RSSDisplay(5, $this->FlickrURL);
 
     foreach($slides as $slide){
       $slide->Description->setValue(str_replace("imubuddy posted a photo:", "", $slide->Description->getValue()));
