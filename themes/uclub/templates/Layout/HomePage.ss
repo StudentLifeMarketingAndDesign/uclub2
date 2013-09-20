@@ -19,11 +19,11 @@
 	          </div>
          <% end_if %>
 	        <div class="hero-text">
-                <h2 class="blocktext">We offer a variety of counseling services, outreach, and training for University of Iowa students.</h2>
+                <h2 class="blocktext">A unique club and event venue in Iowa City near the University of Iowa campus.</h2>
                 <ul>
-                    <li><a href="services/individual-counseling-and-psychotherapy/">Counseling</a></li>
-                    <li><a href="services/outreach">Outreach</a></li>
-                    <li><a href="services/training">Training</a></li>
+                    <li><a href="#">Programs</a></li>
+                    <li><a href="#">Weddings</a></li>
+                    <li><a href="#">Events and Banquets</a></li>
                 </ul>
             </div>
         </div>
