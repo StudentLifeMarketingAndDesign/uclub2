@@ -3,13 +3,29 @@
 	"description": "The SilverStripe Framework Installer",
 	"require": {
 		"php": ">=5.3.2",
-		"silverstripe/cms": "3.0.*@stable",
-		"silverstripe/framework": "3.0.*@stable",
-		"silverstripe-themes/simple": "*"
+		"silverstripe/cms": "3.1.1",
+		"silverstripe/framework": "3.1.1",
+		"md/division-project": "dev-master"
+
 	},
-	"require-dev": {
-		"silverstripe/compass": "*",
-		"silverstripe/docsviewer": "*"
+	"config": {
+		"process-timeout": 600	
 	},
-	"minimum-stability": "dev"
+	"minimum-stability": "dev",
+	
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/division-project"
+      
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/division-bar"
+
+        }
+    ]
+
 }
+
+
