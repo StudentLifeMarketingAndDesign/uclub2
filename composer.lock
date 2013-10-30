@@ -53,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "46085247845046fadfdbf1b3d8ac851fa90a48d5"
+                "reference": "d792632d27e1980d921cbbba12eab7b888338d4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/46085247845046fadfdbf1b3d8ac851fa90a48d5",
-                "reference": "46085247845046fadfdbf1b3d8ac851fa90a48d5",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d792632d27e1980d921cbbba12eab7b888338d4c",
+                "reference": "d792632d27e1980d921cbbba12eab7b888338d4c",
                 "shasum": ""
             },
             "replace": {
@@ -101,6 +101,7 @@
                 "agl",
                 "cakephp",
                 "codeigniter",
+                "concrete5",
                 "drupal",
                 "fuelphp",
                 "installer",
@@ -118,7 +119,7 @@
                 "wordpress",
                 "zend"
             ],
-            "time": "2013-10-11 03:22:56"
+            "time": "2013-10-24 16:13:49"
         },
         {
             "name": "md/division-bar",
@@ -158,12 +159,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "5120fb173b799e818750d48f7f31e2d4ac66a06a"
+                "reference": "cd871c384667e36893f94364cf3c0bf9479c8cc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/5120fb173b799e818750d48f7f31e2d4ac66a06a",
-                "reference": "5120fb173b799e818750d48f7f31e2d4ac66a06a",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/cd871c384667e36893f94364cf3c0bf9479c8cc3",
+                "reference": "cd871c384667e36893f94364cf3c0bf9479c8cc3",
                 "shasum": ""
             },
             "require": {
@@ -197,7 +198,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2013-10-22 16:08:54"
+            "time": "2013-10-23 15:19:28"
         },
         {
             "name": "silverstripe-themes/simple",
@@ -241,12 +242,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
-                "reference": "576e462823158ae1c06ac44d93cdec9cffa71b98"
+                "reference": "91705ccc7d92d81b8b4dd623463c41f1f5ffdcbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/576e462823158ae1c06ac44d93cdec9cffa71b98",
-                "reference": "576e462823158ae1c06ac44d93cdec9cffa71b98",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/91705ccc7d92d81b8b4dd623463c41f1f5ffdcbb",
+                "reference": "91705ccc7d92d81b8b4dd623463c41f1f5ffdcbb",
                 "shasum": ""
             },
             "require": {
@@ -274,7 +275,7 @@
                 "blog",
                 "silverstripe"
             ],
-            "time": "2013-10-21 08:19:41"
+            "time": "2013-10-25 00:44:48"
         },
         {
             "name": "silverstripe/cms",
@@ -641,12 +642,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/simplepie/simplepie.git",
-                "reference": "24ab2173bad5346bd280f9c1c36ebc0442f4dcdb"
+                "reference": "5f00e77b5feb96605cbcea4dcfb555e87c2fed24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simplepie/simplepie/zipball/24ab2173bad5346bd280f9c1c36ebc0442f4dcdb",
-                "reference": "24ab2173bad5346bd280f9c1c36ebc0442f4dcdb",
+                "url": "https://api.github.com/repos/simplepie/simplepie/zipball/5f00e77b5feb96605cbcea4dcfb555e87c2fed24",
+                "reference": "5f00e77b5feb96605cbcea4dcfb555e87c2fed24",
                 "shasum": ""
             },
             "require": {
@@ -687,7 +688,7 @@
                 "feeds",
                 "rss"
             ],
-            "time": "2013-09-11 03:42:27"
+            "time": "2013-10-24 06:37:55"
         },
         {
             "name": "unclecheese/betterbuttons",
@@ -775,12 +776,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/UndefinedOffset/SortableGridField.git",
-                "reference": "e3895cc5efeb1ab76bfefb48fb3e8803ba8b38e6"
+                "reference": "53efc6d9b1aae9fb31f9d0a7ebae8fba71faf475"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/e3895cc5efeb1ab76bfefb48fb3e8803ba8b38e6",
-                "reference": "e3895cc5efeb1ab76bfefb48fb3e8803ba8b38e6",
+                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/53efc6d9b1aae9fb31f9d0a7ebae8fba71faf475",
+                "reference": "53efc6d9b1aae9fb31f9d0a7ebae8fba71faf475",
                 "shasum": ""
             },
             "require": {
@@ -807,7 +808,7 @@
                 "gridfield",
                 "silverstripe"
             ],
-            "time": "2013-10-22 13:36:08"
+            "time": "2013-10-25 12:24:52"
         }
     ],
     "packages-dev": [

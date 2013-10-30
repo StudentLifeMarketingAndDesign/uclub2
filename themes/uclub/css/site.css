@@ -1,0 +1,21 @@
+object { max-width: 100%}
+
+.feature-text {
+	font-size: 20px; 
+}
+
+.feature-text2 {
+	font-size: 18px;
+}
+
+.side_gal object{
+	height: 400px; 
+	
+}
+.sunporch {
+	width: 100%;
+}
+
+.underline1 {
+	border-bottom: 1px gray solid; 
+}
