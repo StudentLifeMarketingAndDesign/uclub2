@@ -1,0 +1,42 @@
+<% if $BackgroundImage %>
+	<div class="img-container" style="background-image: url($BackgroundImage.URL);">
+		<div class="img-fifty-top"></div>
+	</div>
+<% end_if %>
+<div class="gradient">
+	<div class="container clearfix">
+		<div class="white-cover"></div>
+	    <section class="main-content <% if $BackgroundImage %>margin-top<% end_if %>">
+	    	<h1>Events Spaces</h1>
+	    	
+			$Content
+			<hr>
+			<% loop Children %>
+				<h2>$Title</h2>
+			    <p><a href="$Link" class="full-desc" target="_blank">$Caption</a></p>
+				<div class="slider-container">
+				 
+				  <div class="flexslider EventSpaces">
+				       <ul class="slides">
+				        <% loop Slides %>
+				        <li>
+				          <a href="$Link" target="_blank"><img src="$ImageURL" alt="Slideshow Photo $Pos" /></a>
+				          
+				        </li>
+
+				        <% end_loop %>
+					 
+				      						
+				      </ul><!-- end slides -->
+				  </div><!-- end flexslider -->
+				</div><!-- end slider-container -->
+				<hr> 
+		<% end_loop %>
+
+	    </section>
+	    <section class="sec-content hide-print">
+	    	<% include SideNav %>
+	    </section>
+	</div>
+</div>
+<%-- <% include TopicsAndNews %> --%>

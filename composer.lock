@@ -159,12 +159,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "cd871c384667e36893f94364cf3c0bf9479c8cc3"
+                "reference": "4accf7b4402acf11850da9e0f75e66c84cb975c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/cd871c384667e36893f94364cf3c0bf9479c8cc3",
-                "reference": "cd871c384667e36893f94364cf3c0bf9479c8cc3",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/4accf7b4402acf11850da9e0f75e66c84cb975c1",
+                "reference": "4accf7b4402acf11850da9e0f75e66c84cb975c1",
                 "shasum": ""
             },
             "require": {
@@ -198,7 +198,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2013-10-23 15:19:28"
+            "time": "2013-10-31 14:56:17"
         },
         {
             "name": "silverstripe-themes/simple",
@@ -569,12 +569,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "f66c3c340a56eaa2de22b453b30408b89c3de165"
+                "reference": "aa0f8dbc7bb5bfbaf93f60568c26005d86d71218"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/f66c3c340a56eaa2de22b453b30408b89c3de165",
-                "reference": "f66c3c340a56eaa2de22b453b30408b89c3de165",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/aa0f8dbc7bb5bfbaf93f60568c26005d86d71218",
+                "reference": "aa0f8dbc7bb5bfbaf93f60568c26005d86d71218",
                 "shasum": ""
             },
             "require": {
@@ -598,7 +598,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2013-10-17 07:25:12"
+            "time": "2013-10-30 13:31:51"
         },
         {
             "name": "silverstripe/widgets",
@@ -776,12 +776,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/UndefinedOffset/SortableGridField.git",
-                "reference": "53efc6d9b1aae9fb31f9d0a7ebae8fba71faf475"
+                "reference": "8b185cae3bc4fd580668abfa45815b7403d15e1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/53efc6d9b1aae9fb31f9d0a7ebae8fba71faf475",
-                "reference": "53efc6d9b1aae9fb31f9d0a7ebae8fba71faf475",
+                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/8b185cae3bc4fd580668abfa45815b7403d15e1d",
+                "reference": "8b185cae3bc4fd580668abfa45815b7403d15e1d",
                 "shasum": ""
             },
             "require": {
@@ -808,7 +808,7 @@
                 "gridfield",
                 "silverstripe"
             ],
-            "time": "2013-10-25 12:24:52"
+            "time": "2013-10-29 23:14:58"
         }
     ],
     "packages-dev": [

@@ -1,21 +1,12 @@
-object { max-width: 100%}
 
-.feature-text {
-	font-size: 20px; 
+a {
+	color: black; 
 }
 
-.feature-text2 {
-	font-size: 18px;
+.flexslider.EventSpaces {
+margin: 0 0 42px;
 }
 
-.side_gal object{
-	height: 400px; 
-	
-}
-.sunporch {
-	width: 100%;
-}
-
-.underline1 {
-	border-bottom: 1px gray solid; 
+.flexslider.EventSpaces .flex-control-nav {
+	display: none;
 }

@@ -1,8 +1,9 @@
 <?php
-class EventSpacesPage extends Page {
+class EventSpacePage extends Page {
 
 	private static $db = array(
-		
+		"FlickrSetId"=> "Text",
+		"Caption" => "Text",
 	);
 
 	private static $has_one = array(
@@ -15,20 +16,41 @@ class EventSpacesPage extends Page {
     private static $many_many_extraFields=array(
       );
 
-    private static $plural_name = "Pages";
-
 	private static $defaults = array ();
 
 
 	public function getCMSFields(){
 		$f = parent::getCMSFields();
 		
+		$f->addFieldToTab("Root.Main", new TextField("FlickrSetId", "Flickr Set ID"), "Content");
+		$f->addFieldToTab("Root.Main", new TextField("Caption", "Slider Caption"), "Content");
+		
 		return $f;
+		
 	}
+	
+	public function Slides(){
+		$controller = Controller::curr();
+		$flickrURL = 'http://api.flickr.com/services/feeds/photoset.gne?set='.$this->FlickrSetId.'&nsid=9717880@N03&lang=en-us';
+		if($flickrURL){
 
+			
+		    $slides = $controller->RSSDisplay(5, $flickrURL);
+		    
+			foreach($slides as $slide){
+		      $slide->Description->setValue($this->Caption);
+		
+		    }
+		    return $slides;
+	    }else {
+		    return false;
+	    }
+	
+
+  }
 	
 }
-class EventSpacesPage_Controller extends Page_Controller {
+class EventSpacePage_Controller extends Page_Controller {
 
 	/**
 	 * An array of actions that can be accessed via a request. Each array element should be an action name, and the
@@ -58,6 +80,7 @@ class EventSpacesPage_Controller extends Page_Controller {
    
 	}
 
+	
 
 	
 }
