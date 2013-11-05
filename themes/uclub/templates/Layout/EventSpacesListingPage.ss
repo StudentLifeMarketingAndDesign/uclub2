@@ -7,13 +7,13 @@
 	<div class="container clearfix">
 		<div class="white-cover"></div>
 	    <section class="main-content <% if $BackgroundImage %>margin-top<% end_if %>">
-	    	<h1>Events Spaces</h1>
+	    	<h1>$Title</h1>
 	    	
 			$Content
 			<hr>
-			<% loop Children %>
+			<% loop AllChildren %>
 				<h2>$Title</h2>
-			    <p><a href="$Link" class="full-desc" target="_blank">$Caption</a></p>
+			    <p><a href="$Link" class="full-desc" target="_blank">$Content</a></p>
 				<div class="slider-container">
 				 
 				  <div class="flexslider EventSpaces">
