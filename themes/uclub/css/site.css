@@ -4,7 +4,8 @@ a {
 }
 
 .flexslider.EventSpaces {
-margin: 0 0 42px;
+	margin: 0 0 42px;
+	height: 500px;
 }
 
 .flexslider.EventSpaces .flex-control-nav {
