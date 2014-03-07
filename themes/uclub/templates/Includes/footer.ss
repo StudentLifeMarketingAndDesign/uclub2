@@ -36,7 +36,6 @@
 </style>
 <div id="mc_embed_signup">
 <form action="http://uiowa.us4.list-manage1.com/subscribe/post?u=8e0f2e296be5bfedf219872fa&amp;id=8fd0959ae7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-	<label for="mce-EMAIL">Subscribe to our mailing list</label>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;"><input type="text" name="b_8e0f2e296be5bfedf219872fa_8fd0959ae7" value=""></div>
