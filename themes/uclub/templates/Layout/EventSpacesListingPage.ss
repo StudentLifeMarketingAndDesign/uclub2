@@ -13,15 +13,14 @@
 			<hr>
 			<% loop AllChildren %>
 				<h2>$Title</h2>
-			    <p><a href="$Link" class="full-desc" target="_blank">$Content</a></p>
+			    <p>$Content</p>
 				<div class="slider-container">
 				 
 				  <div class="flexslider EventSpaces">
 				       <ul class="slides">
 				        <% loop Slides %>
 				        <li>
-				          <a href="$Link" target="_blank"><img src="$ImageURL" alt="Slideshow Photo $Pos" /></a>
-				          
+				          <img src="$ImageURL" alt="Slideshow Photo $Pos" />
 				        </li>
 
 				        <% end_loop %>
