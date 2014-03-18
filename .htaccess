@@ -210,3 +210,8 @@ FileETag None
     ExpiresByType image/svg+xml                         "access plus 1 month"
 
 </IfModule>
+
+# ------------------------------------------------------------------------------
+# | Redirects - 3/18/14, me
+# ------------------------------------------------------------------------------
+Redirect 301 /news/international-lunch-series http://uclub.uiowa.edu/members/dining/httpitsnt1211-iowa-uiowa-eduemsregicsinternationallunchseries032614-/
