@@ -19,13 +19,10 @@
 				  <div class="flexslider EventSpaces">
 				       <ul class="slides">
 				        <% loop Slides %>
-				        <li>
-				          <img src="$ImageURL" alt="Slideshow Photo $Pos" />
-				        </li>
-
-				        <% end_loop %>
-					 
-				      						
+					        <li>
+					          <img src="$ImageURL" alt="Slideshow Photo $Pos" />
+					        </li>
+				        <% end_loop %>			
 				      </ul><!-- end slides -->
 				  </div><!-- end flexslider -->
 				</div><!-- end slider-container -->
@@ -38,4 +35,4 @@
 	    </section>
 	</div>
 </div>
-<%-- <% include TopicsAndNews %> --%>
+<% include TopicsAndNews %>
