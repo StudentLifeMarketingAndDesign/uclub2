@@ -4,6 +4,7 @@ class EventSpacePage extends Page {
 	private static $db = array(
 		"FlickrSetId"=> "Text",
 		"Caption" => "Text",
+		"FlickrEmbedCode" => "Text",
 	);
 
 	private static $has_one = array(
@@ -24,7 +25,7 @@ class EventSpacePage extends Page {
 		
 		$f->addFieldToTab("Root.Main", new TextField("FlickrSetId", "Flickr Set ID"), "Content");
 		$f->addFieldToTab("Root.Main", new TextField("Caption", "Slider Caption"), "Content");
-		
+		$f->addFieldToTab("Root.Main", new TextField("FlickrEmbedCode", "Flickr Embed Code"),"Content");
 		return $f;
 		
 	}
