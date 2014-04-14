@@ -35,7 +35,7 @@ class EventSpacePage extends Page {
 		if($flickrURL){
 
 			
-		    $slides = $controller->RSSDisplay(5, $flickrURL);
+		    $slides = $controller->RSSDisplay(20, $flickrURL);
 		    
 			foreach($slides as $slide){
 		      $slide->Description->setValue($this->Caption);
