@@ -14,9 +14,9 @@
 				<h2>$Title</h2>
 			    <p>$Content</p>
 				
-				<div class="video">	
+				<div class="flickrEmbed">	
 						
-				<iframe src="$FlickrEmbedCode" width="500" height="434" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+					<iframe src="$FlickrEmbedCode" width="500" height="434" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 				</div>
 				<hr> 
 			<% end_loop %>

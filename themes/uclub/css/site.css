@@ -7,3 +7,6 @@
 .flexslider.EventSpaces .flex-control-nav {
 	display: none;
 }
+.flickrEmbed iframe {
+	width: 100% !important; 
+}
