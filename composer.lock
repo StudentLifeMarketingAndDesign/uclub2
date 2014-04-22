@@ -53,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "26d37e307f9aa6e2e81806a6525666f8ab5ba0ff"
+                "reference": "df19b48f557987e0a9bddff0c12dde37d5bcb757"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/26d37e307f9aa6e2e81806a6525666f8ab5ba0ff",
-                "reference": "26d37e307f9aa6e2e81806a6525666f8ab5ba0ff",
+                "url": "https://api.github.com/repos/composer/installers/zipball/df19b48f557987e0a9bddff0c12dde37d5bcb757",
+                "reference": "df19b48f557987e0a9bddff0c12dde37d5bcb757",
                 "shasum": ""
             },
             "replace": {
@@ -88,7 +88,7 @@
                 {
                     "name": "Kyle Robinson Young",
                     "email": "kyle@dontkry.com",
-                    "homepage": "https://github.com/shama",
+                    "homepage": "http://dontkry.com",
                     "role": "Developer"
                 }
             ],
@@ -129,7 +129,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-04-09 16:12:43"
+            "time": "2014-04-15 03:26:48"
         },
         {
             "name": "md/division-bar",
@@ -137,12 +137,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-bar.git",
-                "reference": "83b85fca823dc970d0c5e2b6257927ad6a4ce3a8"
+                "reference": "a5845dfa6c766ed9fce8d19e7302c5404af70cd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-bar/zipball/83b85fca823dc970d0c5e2b6257927ad6a4ce3a8",
-                "reference": "83b85fca823dc970d0c5e2b6257927ad6a4ce3a8",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-bar/zipball/a5845dfa6c766ed9fce8d19e7302c5404af70cd3",
+                "reference": "a5845dfa6c766ed9fce8d19e7302c5404af70cd3",
                 "shasum": ""
             },
             "require": {
@@ -161,7 +161,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-bar/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-bar/issues"
             },
-            "time": "2014-03-21 22:13:45"
+            "time": "2014-04-17 14:30:01"
         },
         {
             "name": "md/division-project",
@@ -169,12 +169,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "3ff5a4bda16ea8786303d9c16842375239bb7262"
+                "reference": "02e4bc23c4ef3cb785bf89abb3eab350a5d60f5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/3ff5a4bda16ea8786303d9c16842375239bb7262",
-                "reference": "3ff5a4bda16ea8786303d9c16842375239bb7262",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/02e4bc23c4ef3cb785bf89abb3eab350a5d60f5d",
+                "reference": "02e4bc23c4ef3cb785bf89abb3eab350a5d60f5d",
                 "shasum": ""
             },
             "require": {
@@ -188,6 +188,7 @@
                 "silverstripe/framework": "3.1.4",
                 "silverstripe/googlesitemaps": "*",
                 "silverstripe/installer": "*",
+                "silverstripe/mathspamprotection": "*",
                 "silverstripe/recaptcha": "*",
                 "silverstripe/timepickerfield": "*",
                 "silverstripe/userforms": "*",
@@ -208,7 +209,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2014-04-09 14:43:58"
+            "time": "2014-04-21 20:10:15"
         },
         {
             "name": "silverstripe-themes/simple",
@@ -506,6 +507,40 @@
                 "silverstripe"
             ],
             "time": "2014-01-28 04:41:57"
+        },
+        {
+            "name": "silverstripe/mathspamprotection",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-mathspamprotection.git",
+                "reference": "0e916101e2435eea23a43d34027c154fd90fe544"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-mathspamprotection/zipball/0e916101e2435eea23a43d34027c154fd90fe544",
+                "reference": "0e916101e2435eea23a43d34027c154fd90fe544",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/spamprotection": "dev-master"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Will Rossiter",
+                    "email": "will@fullscreen.io",
+                    "homepage": "http://wilr.github.com"
+                }
+            ],
+            "description": "This module provides a simple math protection mechanism for prevent spam from your forms.Includes an EditableMathSpamField to integrate with the UserForms module.",
+            "keywords": [
+                "mathspamprotection",
+                "silverstripe",
+                "spamprotection"
+            ],
+            "time": "2014-04-03 21:31:04"
         },
         {
             "name": "silverstripe/recaptcha",
