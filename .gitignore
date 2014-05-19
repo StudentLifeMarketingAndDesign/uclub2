@@ -26,5 +26,5 @@ contact_form/
 rss-display/
 assets/*
 assets
-
 mathspamprotection/
+node_modules/
