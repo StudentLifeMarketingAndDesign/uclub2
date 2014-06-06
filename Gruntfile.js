@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
 
   var globalConfig = {
-    themeDir: 'themes/uclub2'
+    themeDir: 'themes/uclub'
   };
 
   // Project configuration.
