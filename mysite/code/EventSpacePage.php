@@ -2,53 +2,49 @@
 class EventSpacePage extends Page {
 
 	private static $db = array(
-		"FlickrSetId"=> "Text",
+		"FlickrSetId" => "Text",
 		"Caption" => "Text",
 	);
 
 	private static $has_one = array(
 	);
 
-
-	private static $many_many = array (
+	private static $many_many = array(
 	);
 
-    private static $many_many_extraFields=array(
-      );
+	private static $many_many_extraFields = array(
+	);
 
-	private static $defaults = array ();
+	private static $defaults = array();
 
-
-	public function getCMSFields(){
+	public function getCMSFields() {
 		$f = parent::getCMSFields();
-		
+
 		$f->addFieldToTab("Root.Main", new TextField("FlickrSetId", "Flickr Set ID"), "Content");
 		$f->addFieldToTab("Root.Main", new TextField("Caption", "Slider Caption"), "Content");
-		
+
 		return $f;
-		
+
 	}
-	
-	public function Slides(){
+
+	public function Slides() {
 		$controller = Controller::curr();
-		$flickrURL = 'http://api.flickr.com/services/feeds/photoset.gne?set='.$this->FlickrSetId.'&nsid=9717880@N03&lang=en-us';
-		if($flickrURL){
+		$flickrURL = 'http://api.flickr.com/services/feeds/photoset.gne?set=' . $this->FlickrSetId . '&nsid=9717880@N03&lang=en-us';
+		if ($flickrURL) {
 
-			
-		    $slides = $controller->RSSDisplay(20, $flickrURL);
-		    
-			foreach($slides as $slide){
-		      $slide->Description->setValue($this->Caption);
-		
-		    }
-		    return $slides;
-	    }else {
-		    return false;
-	    }
-	
+			$slides = $controller->RSSDisplay(20, $flickrURL);
 
-  }
-	
+			foreach ($slides as $slide) {
+				$slide->Description->setValue($this->Caption);
+
+			}
+			return $slides;
+		} else {
+			return false;
+		}
+
+	}
+
 }
 class EventSpacePage_Controller extends Page_Controller {
 
@@ -67,7 +63,7 @@ class EventSpacePage_Controller extends Page_Controller {
 	 *
 	 * @var array
 	 */
-	private static $allowed_actions = array (
+	private static $allowed_actions = array(
 	);
 
 	public function init() {
@@ -77,10 +73,6 @@ class EventSpacePage_Controller extends Page_Controller {
 		// instead of putting Requirements calls here.  However these are
 		// included so that our older themes still work
 
-   
 	}
 
-	
-
-	
 }
