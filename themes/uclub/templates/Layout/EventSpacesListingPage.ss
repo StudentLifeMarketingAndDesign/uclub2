@@ -20,7 +20,7 @@
 				       <ul class="slides">
 				        <% loop Slides %>
 					        <li>
-					          <img src="$ImageURL" alt="Slideshow Photo $Pos" />
+					          <img src="$ThumbnailAltURL" alt="Slideshow Photo $Pos" />
 					        </li>
 				        <% end_loop %>			
 				      </ul><!-- end slides -->
