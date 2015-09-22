@@ -7,13 +7,11 @@
 	<div class="container clearfix">
 		<div class="white-cover"></div>
 	    <section class="main-content <% if $BackgroundImage %>margin-top<% end_if %>">
+
 	    	<h1>$Title</h1>
-	    	
 			$Content
-			<hr>
 			<% loop AllChildren %>
-				<h2>$Title</h2>
-			    <p>$Content</p>
+
 				<div class="slider-container">
 				 
 				  <div class="flexslider EventSpaces">
@@ -26,7 +24,9 @@
 				      </ul><!-- end slides -->
 				  </div><!-- end flexslider -->
 				</div><!-- end slider-container -->
-				<hr> 
+				<h2>$Title</h2>
+			    <p>$Content</p>
+				<% if not $Last %><hr><% end_if %> 
 		<% end_loop %>
 
 	    </section>
