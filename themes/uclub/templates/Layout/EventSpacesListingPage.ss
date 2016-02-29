@@ -10,24 +10,6 @@
 
 	    	<h1>$Title</h1>
 			$Content
-			<% loop AllChildren %>
-
-				<div class="slider-container">
-				 
-				  <div class="flexslider EventSpaces">
-				       <ul class="slides">
-				        <% loop Slides %>
-					        <li>
-					          <img src="$ThumbnailAltURL" alt="Slideshow Photo $Pos" />
-					        </li>
-				        <% end_loop %>			
-				      </ul><!-- end slides -->
-				  </div><!-- end flexslider -->
-				</div><!-- end slider-container -->
-				<h2>$Title</h2>
-			    <p>$Content</p>
-				<% if not $Last %><hr><% end_if %> 
-		<% end_loop %>
 
 	    </section>
 	    <section class="sec-content hide-print">
