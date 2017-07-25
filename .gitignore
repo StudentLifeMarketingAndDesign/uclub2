@@ -46,3 +46,7 @@ tagfield/
 reports/
 siteconfig/
 secureassets/
+activedirectory/
+multivaluefield/
+queuedjobs/
+blog-sortable-categories/

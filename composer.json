@@ -4,7 +4,8 @@
 	"require": {
 		"php": ">=5.3.2",
 		"md/division-project": "1.3.x-dev",
-		"silverstripe/contact-form" : "*"
+		"silverstripe/contact-form" : "*",
+        "silverstripe/activedirectory" : "3.*"
 	},
 	"config": {
 		"process-timeout": 600	
@@ -35,6 +36,15 @@
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-flickr"
 
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-activedirectory"
+
+        },
+        {
+             "type": "vcs",
+             "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-betternavigator"
         }
     ]
 
