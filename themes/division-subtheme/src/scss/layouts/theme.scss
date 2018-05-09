@@ -3,4 +3,8 @@
 		height: 800px;
 		background-size: cover;
 	}
+	a[href$=".pdf"]:after {
+	content: "";
+	background: none;
+	}
 }
